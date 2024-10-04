@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="images/bus.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+
+
+    <title>TicketJatra</title>
 </head>
-<body>
-    
+
+<body class="container max-w-screen-xl m-auto ">
+    <!-- header section -->
+    <nav>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+               
+                <a class="btn btn-ghost text-xl">TicketJatra</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="destination">Destination</a></li>
+                    <li><a href="search">Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end flex  justify-end">
+
+                <a class="btn border border-green-500 bg-green-100 rounded-lg px-4 py-2 inline-flex items-center text-green-500">
+                    Bus <img src="./images/bus-icon.png" alt="" class="ml-2">
+                </a>
+                
+                
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        
+    </header>
+
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
