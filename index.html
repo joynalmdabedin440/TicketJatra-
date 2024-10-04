@@ -13,9 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <style>
         * {
             font-family: 'Raleway', sans-serif;
+        }
+
+        .inter{
+            font-family: "Inter", sans-serif;
         }
     </style>
 
@@ -23,12 +31,12 @@
     <title>TicketJatra</title>
 </head>
 
-<body class="container max-w-screen-xl m-auto ">
+<body class="container max-w-screen-lg mx-auto">
     <!-- header section -->
     <nav>
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-               
+
                 <a class="btn btn-ghost text-xl">TicketJatra</a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -41,18 +49,84 @@
             </div>
             <div class="navbar-end flex  justify-end">
 
-                <a class="btn border border-green-500 bg-green-100 rounded-lg px-4 py-2 inline-flex items-center text-green-500">
+                <a
+                    class="btn border border-green-500 bg-green-100 rounded-lg px-4 py-2 inline-flex items-center text-green-500">
                     Bus <img src="./images/bus-icon.png" alt="" class="ml-2">
                 </a>
-                
-                
+
+
             </div>
         </div>
     </nav>
 
-    <header>
-        
+    <header class="hero h-96 rounded-3xl " style="background-image: url(./images/banner.png);">
+        <div>
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-4xl font-semibold">End-to-End Travel with <br><span class="text-green-500">P
+                            Paribahan</span></h1>
+                    <p class="mb-5">
+                        Yes, you can run unit tests and view the results directly within the app. The integrated testing
+                        features allow for a streamlined .
+                    </p>
+                    <button class="btn border-none bg-[#1DD100] font-bold">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-4 translate-y-80  lg:translate-y-48">
+            <div class=" bg-white border-b-2 border-green-500 rounded-lg flex gap-3 p-4  ">
+                <img src="./images/people.png" alt="">
+                <div>
+                    <h2 class="inter font-extrabold text-xl ">500K+</h2>
+                    <p>Registered users</p>
+                </div>
+            </div>
+            <div class=" bg-white border-b-2 border-green-500 rounded-lg flex gap-3 p-4  ">
+                <img src="./images/people.png" alt="">
+                <div>
+                    <h2 class="inter font-extrabold text-xl ">1.7 lacks</h2>
+                    <p>Tickets sold</p>
+                </div>
+            </div>
+            <div class=" bg-white border-b-2 border-green-500 rounded-lg flex gap-3 p-4  ">
+                <img src="./images/stoppage.png" alt="">
+                <div>
+                    <h2 class="inter font-extrabold text-xl ">80K+</h2>
+                    <p>Rental Partners</p>
+                </div>
+            </div>
+        </div>
+
     </header>
+
+    <main class="my-20">
+        <section>
+            <h1>Best offers for you</h1>
+            <div class="flex space-x-4">
+
+                <!-- First Coupon -->
+                <div class="bg-yellow-400 rounded-lg shadow-lg flex items-center space-x-6 p-4">
+                    <div class="flex flex-col justify-center text-center space-y-2">
+                        <p class="text-2xl font-bold">15% OFF</p>
+                        <p>on your next purchase</p>
+                        <p class="text-sm text-gray-600">use by January 2024</p>
+                    </div>
+                    <div class="w-12 h-full flex justify-center items-center">
+                        <div class="bg-yellow-300 w-12 h-12 rounded-full flex items-center justify-center shadow-inner">NEW15</div>
+                    </div>
+                </div>
+        
+             
+                
+        
+            </div>
+        </section>
+
+        
+
+
+    </main>
 
 
 
