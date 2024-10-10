@@ -1,5 +1,5 @@
 function getElementByItsId(elementId) {
-    const element = document.getElementById(elementId).innerText;
+    const element = document.getElementById(elementId)
     
     return element
 
